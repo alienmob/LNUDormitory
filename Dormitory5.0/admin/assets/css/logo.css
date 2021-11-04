@@ -1,0 +1,24 @@
+
+  .centerL {
+    display: block;
+    width: auto;
+    padding-left: 75px;
+    margin-top: -80px;
+    padding-bottom: 15px;
+  }
+
+
+  .centerM {
+    display: block;
+    width: auto;
+    padding-left: 123px;
+    margin-top: -80px;
+    padding-bottom: 15px;
+    margin-left: 100px;
+  }
+
+
+  .pads{
+    margin-top: -80px;
+    padding-bottom: 15px;
+  }

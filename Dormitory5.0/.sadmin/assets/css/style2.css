@@ -1,0 +1,29 @@
+.myBtn1 {
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #32353a 0%, #383a46 100%);
+    border: none;
+  }
+  .myBtn1:hover {
+    background-image: linear-gradient(to right, #181616 0%, #435053 100%);
+  }
+
+  .myBtn1[aria-expanded="false"] .myCaret:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "⬇";
+    float: right;
+    transition: all 0.5s;
+  }
+  
+  .myBtn1[aria-expanded="true"] .myCaret:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "⬇";
+    float: right;
+    transition: all 0.5s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
